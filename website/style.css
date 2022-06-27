@@ -371,3 +371,67 @@ label {
   justify-content: center;
   grid-row: 2/4;
 }
+
+
+/* ----- media queries ----- */
+@media all and (min-width: 480px) {
+  .hero-text-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heading-primary {
+    font-size: 5rem;
+  }
+  
+  .wallet {
+    font-size: 2.5rem;
+    width: 160px;
+  }
+  
+  .mint-container {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+  }
+
+  .mint-text {
+    font-size: 4rem;
+  }
+
+  .quote {
+    padding-bottom: 3rem;
+  }
+
+  .button {
+    font-size: 3rem;
+    width: 140px;
+  }
+
+  .about {
+    font-size: 3rem;
+    padding: 3rem;
+  }
+
+  .gg {
+    justify-content: center;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5rem;
+  }
+
+  .footer-text {
+    font-size: 5rem;
+  }
+
+  .left {
+    font-size: 3rem;
+  }
+
+  .follow {
+    font-size: 1.5rem;
+  }
+}
